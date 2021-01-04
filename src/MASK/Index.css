@@ -121,15 +121,20 @@
 
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 500px )and (max-width:767px) { 
+@media (min-width: 476px )and (max-width:767px) { 
     #header h1{
-        font-size: 180%;
+       font-size: 177%;
+       text-align: center; 
     }
+
+    #header h2{
+        font-size: 120%;
+     }
+     
     .leftSection{
         display: flex;
-        justify-content: center;
         align-items: center;
-        text-align: center;
+        flex-direction: column;
     }
     .menuActive{
         border-bottom: none;
@@ -144,22 +149,35 @@
     }
 
     .btnGetStarted{
-        width: 160px;
+        width: 40%;
     }
     .img-fluid{
         max-width: 320px;
     }
 
+    .btnPosition{
+        display: flex;
+        justify-content: center;
+    }
+
  }
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
+@media (min-width: 768px) and (max-width:967px) { 
   
     #header h1{
         font-size: 190%;
     }
 
+    .menuActive{
+        border-bottom: none;
+    }
+
+    .menuActive{
+        border-bottom: none;
+    }
+
     .btnGetStarted{
-        width: 170px;
+        width: 40%;
     }
 
     .card-body{

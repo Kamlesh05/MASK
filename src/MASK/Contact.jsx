@@ -62,7 +62,7 @@ I can be also reached on ${data.email}. I just want to say that, ${data.message}
                             <label for="exampleFormControlTextarea1" className="form-label font-weight-bold">Message :</label>
                             <textarea name='message' value={data.message} onChange={InputEvent} className="form-control form-control-sm" id="exampleFormControlTextarea1" rows="3" required></textarea>
                         </div>
-                        <div class="mb-3">
+                        <div class="mb-3 btnPosition">
                             <button class="btn btn-primary" type="submit">Submit form</button>
                         </div>
                     </form>
