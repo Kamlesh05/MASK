@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/MASK/static/css/main.bad586e2.chunk.css",
-    "main.js": "/MASK/static/js/main.0deed188.chunk.js",
-    "main.js.map": "/MASK/static/js/main.0deed188.chunk.js.map",
+    "main.css": "/MASK/static/css/main.8a23bcb5.chunk.css",
+    "main.js": "/MASK/static/js/main.a889a6c9.chunk.js",
+    "main.js.map": "/MASK/static/js/main.a889a6c9.chunk.js.map",
     "runtime-main.js": "/MASK/static/js/runtime-main.fab47c9b.js",
     "runtime-main.js.map": "/MASK/static/js/runtime-main.fab47c9b.js.map",
     "static/css/2.b9b989d7.chunk.css": "/MASK/static/css/2.b9b989d7.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.e4aa994e.chunk.js.map": "/MASK/static/js/2.e4aa994e.chunk.js.map",
     "index.html": "/MASK/index.html",
     "static/css/2.b9b989d7.chunk.css.map": "/MASK/static/css/2.b9b989d7.chunk.css.map",
-    "static/css/main.bad586e2.chunk.css.map": "/MASK/static/css/main.bad586e2.chunk.css.map",
+    "static/css/main.8a23bcb5.chunk.css.map": "/MASK/static/css/main.8a23bcb5.chunk.css.map",
     "static/js/2.e4aa994e.chunk.js.LICENSE.txt": "/MASK/static/js/2.e4aa994e.chunk.js.LICENSE.txt",
     "static/media/About.f7fe5fee.jpg": "/MASK/static/media/About.f7fe5fee.jpg",
     "static/media/Consultant.284e11e0.jpg": "/MASK/static/media/Consultant.284e11e0.jpg",
@@ -25,7 +25,7 @@
     "static/js/runtime-main.fab47c9b.js",
     "static/css/2.b9b989d7.chunk.css",
     "static/js/2.e4aa994e.chunk.js",
-    "static/css/main.bad586e2.chunk.css",
-    "static/js/main.0deed188.chunk.js"
+    "static/css/main.8a23bcb5.chunk.css",
+    "static/js/main.a889a6c9.chunk.js"
   ]
 }
