@@ -123,7 +123,7 @@
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 400px )and (max-width:767px) { 
     #header h1{
-       font-size: 155%;
+       font-size: 140%;
        text-align: center; 
     }
 
@@ -149,7 +149,7 @@
     }
 
     .btnGetStarted{
-        width: 40%;
+        width: 60%;
     }
     .img-fluid{
         max-width: 320px;
