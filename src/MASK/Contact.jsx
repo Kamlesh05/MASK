@@ -39,7 +39,7 @@ I can be also reached on ${data.email}. I just want to say that, ${data.message}
 
     return (
         <>
-          <div className='my-4'>
+          <div className='my-4 contact'>
               <h1 className='text-center'>Contact Us</h1>
           </div>
           <div className='container'>
@@ -48,11 +48,12 @@ I can be also reached on ${data.email}. I just want to say that, ${data.message}
                     <form className='contactForm' onSubmit={formSubmit}>
                     <div className="mb-3">
                             <label for="exampleFormControlInput1" className="form-label font-weight-bold">Full Name :</label>
-                            <input name='fullname' value={data.fname} onChange={InputEvent} type="text" className="form-control form-control-sm" id="exampleFormControlInput1" placeholder="Enter your Name" required/>
+                            <input name='fullname' pattern="^[A-Za-z .]{3,35}$" title="Please enter your name correctly" value={data.fname} onChange={InputEvent} type="text" className="form-control form-control-sm" id="exampleFormControlInput1" placeholder="Enter your Name" required/>
                         </div>
                         <div className="mb-3">
                             <label for="exampleFormControlInput1" className="form-label font-weight-bold">Contact :</label>
-                            <input name='mobile' value={data.mobile} onChange={InputEvent} type="number" className="form-control form-control-sm" id="exampleFormControlInput1" placeholder="+91" required/>
+                            <input name='mobile' value={data.mobile} onChange={InputEvent} type="text" pattern="[7-9]{1}[0-9]{9}" title="Please enter valid mobile number"  className="form-control form-control-sm" id="exampleFormControlInput1" placeholder="Mobile number" required/>
+                            <span id="mobVal">hello</span>
                         </div>
                         <div className="mb-3">
                             <label for="exampleFormControlInput1" className="form-label font-weight-bold">Email address :</label>
@@ -63,7 +64,7 @@ I can be also reached on ${data.email}. I just want to say that, ${data.message}
                             <textarea name='message' value={data.message} onChange={InputEvent} className="form-control form-control-sm" id="exampleFormControlTextarea1" rows="3" required></textarea>
                         </div>
                         <div class="mb-3 btnPosition">
-                            <button class="btn btn-primary" type="submit">Submit form</button>
+                            <button class="btn btn-primary" type="submit">Submit</button>
                         </div>
                     </form>
                     

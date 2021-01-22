@@ -1,0 +1,19 @@
+@mixin left {
+        display: flex;
+        align-items:flex-start;
+        flex-direction: column;
+}
+
+@mixin flexCol($dir) {
+    display: flex;
+    align-items: center;
+    justify-content: $dir;
+    flex-direction: column;
+}
+
+@mixin flexRow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}

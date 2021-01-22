@@ -1,0 +1,392 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Ovo', serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.navbar .nav-link {
+  color: gray;
+  text-decoration: none;
+}
+
+#header {
+  height: 85vh;
+  margin-top: 10px;
+}
+
+#header h1 {
+  color: white;
+  font-size: 4rem;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+#header h2 {
+  font-size: 2rem;
+  color: white;
+  line-height: 50px;
+}
+
+.menuActive {
+  color: orangered;
+  border-bottom: 2px solid orangered;
+  font-weight: bold;
+}
+
+.btnGetStarted {
+  border-radius: 50px;
+  width: 35%;
+  background-color: transparent;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  color: white;
+  border: 2px solid white;
+  font-weight: bold;
+  font-size: 1.8rem;
+  -webkit-transition: 1s;
+  transition: 1s;
+  text-decoration: none;
+}
+
+.btnGetStarted:hover {
+  background-color: #3498db;
+  color: white;
+}
+
+.heroImage {
+  width: 100vw;
+  height: 100vh;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.233)), to(rgba(0, 0, 0, 0.233))), url("../Images/home_v3.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.233), rgba(0, 0, 0, 0.233)), url("../Images/home_v3.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+#header-img {
+  text-align: right;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.842)), to(rgba(0, 0, 0, 0.842)));
+  background-image: linear-gradient(rgba(0, 0, 0, 0.842), rgba(0, 0, 0, 0.842));
+}
+
+.tagline {
+  width: 72vw;
+}
+
+.navbar {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.navbar .navbar-nav {
+  padding-left: 20px;
+  font-size: 1.8rem;
+}
+
+.navbar .navbar-brand {
+  font-size: 5rem;
+  color: #1aa2fc;
+  font-weight: 500;
+}
+
+.navbar .navbar-brand :hover {
+  color: red;
+}
+
+.navbar .companyName {
+  font-size: 5rem;
+  font-weight: 500;
+}
+
+.content {
+  height: 75vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+}
+
+.service h1 {
+  font-size: 3.5rem;
+}
+
+.animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down {
+  0% {
+    -webkit-transform: translateY(15px);
+            transform: translateY(15px);
+  }
+  100% {
+    -webkit-transform: translateY(-15px);
+            transform: translateY(-15px);
+  }
+}
+
+@keyframes up-down {
+  0% {
+    -webkit-transform: translateY(15px);
+            transform: translateY(15px);
+  }
+  100% {
+    -webkit-transform: translateY(-15px);
+            transform: translateY(-15px);
+  }
+}
+
+.card-body {
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.card-body a {
+  font-size: 1.7rem;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.card-title {
+  font-size: 2.5rem;
+}
+
+.card-text {
+  font-size: 1.7rem;
+}
+
+.cardCon {
+  width: 25%;
+}
+
+.cardsImg {
+  width: 100%;
+  height: 30vh;
+}
+
+.contact h1 {
+  font-size: 3.5rem;
+}
+
+.contactForm {
+  font-size: 1.7rem;
+}
+
+.contactForm label {
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+
+.contactForm input, .contactForm textarea, .contactForm button {
+  font-size: 1.7rem;
+}
+
+.about .container {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../Images/AboutUs.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Images/AboutUs.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.about .container .aboutContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 65vh;
+}
+
+.about .container .aboutMessage {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.301)), to(rgba(0, 0, 0, 0.295)));
+  background-image: linear-gradient(rgba(0, 0, 0, 0.301), rgba(0, 0, 0, 0.295));
+  width: 100%;
+  padding: 10px;
+}
+
+.about .aboutHeading {
+  font-size: 3.5rem;
+}
+
+.aboutContent p {
+  color: white;
+  font-size: 2rem;
+}
+
+.footer {
+  font-size: 1.3rem;
+  color: gray;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  text-align: center;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 400px) and (max-width: 767px) {
+  .leftSection {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #header h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  #header h2 {
+    font-size: 2rem;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+  }
+  .menuActive {
+    border-bottom: none;
+  }
+  .btnGetStarted {
+    width: 45%;
+    color: white;
+  }
+  .header-img {
+    max-width: 320px;
+  }
+  .heroImage {
+    width: 100vw;
+  }
+  .btnPosition {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .aboutContent p {
+    font-size: 1.5rem;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 967px) {
+  .leftSection {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #header h1 {
+    font-size: 2.7rem;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+  }
+  #header h2 {
+    font-size: 2rem;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+  }
+  .menuActive {
+    border-bottom: none;
+  }
+  .btnGetStarted {
+    width: 60%;
+  }
+  .card-body {
+    min-height: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .aboutContent p {
+    font-size: 1.7rem;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 968px) and (max-width: 1277px) {
+  .leftSection {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #header h1 {
+    font-size: 2.8rem;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+  }
+  #header h2 {
+    font-size: 2rem;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+  }
+  .card-body {
+    min-height: 240px;
+    max-height: 240px;
+  }
+  .btnGetStarted {
+    width: 50%;
+  }
+  .aboutContent p {
+    font-size: 1.7rem;
+  }
+}
+/*# sourceMappingURL=Index.css.map */

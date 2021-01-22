@@ -4,11 +4,11 @@ import React from 'react';
 const Cards = (props)=>{
     return(
         <>
-            <div className='col-md-4 col-12 mx-auto gy-3'>
+            <div className='col-lg-4 col-md-6 col-8 mx-auto gy-5'>
                 <div className="card">
                     <img src={props.imgSrc} className="card-img-top cardsImg" alt="serv"/>
                     <div className="card-body">
-                            <h5 className="card-title"><strong>{props.title}</strong></h5>
+                            <h1 className="card-title"><strong>{props.title}</strong></h1>
                             <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             <a href="#" className="btn btn-primary">Learn More</a>
                     </div>

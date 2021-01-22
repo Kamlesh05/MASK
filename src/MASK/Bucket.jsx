@@ -8,7 +8,8 @@ import Contact from './Contact';
 import Service from './Service';
 import Navbar from './Navbar';
 import Footer from './Footer';
-import './Index.css';
+import '../MASK/SASS/Index.css';
+// import Test from './Test';
 
 
 const Bucket = ()=>{
@@ -25,6 +26,7 @@ const Bucket = ()=>{
                 <Route exact path='/about' component={About}></Route>
                 <Route exact path='/contact' component={Contact}></Route>
                 <Route exact path='/service' component={Service}></Route>
+                {/* <Route exact path='/test' component={Test}></Route> */}
                 <Redirect to='/'/>
             </Switch>
             <Footer/>
