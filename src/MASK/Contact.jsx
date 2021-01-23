@@ -42,9 +42,9 @@ I can be also reached on ${data.email}. I just want to say that, ${data.message}
           <div className='my-4 contact'>
               <h1 className='text-center'>Contact Us</h1>
           </div>
-          <div className='container'>
+          <div className='container p-3'>
             <div className='row'>
-                <div className='col-md-5 col-8 mx-auto p-3'>
+                <div className='col-md-5 col-8 mx-auto p-5'>
                     <form className='contactForm' onSubmit={formSubmit}>
                     <div className="mb-3">
                             <label for="exampleFormControlInput1" className="form-label font-weight-bold">Full Name :</label>

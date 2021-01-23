@@ -145,6 +145,10 @@ html {
   }
 }
 
+.card {
+  width: 25vw;
+}
+
 .card-body {
   height: 200px;
   display: -webkit-box;

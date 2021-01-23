@@ -5,7 +5,7 @@ import Common from './Common';
 const About = () =>{
     return (
         <>
-            <section className="about col-md-10 mx-auto col-12">
+            <section className=" col-md-10 mx-auto col-12 py-4">
                 <div className="container-fluid my-3">
                     <h1 className="text-center aboutHeading">About Us</h1>
                 </div>
