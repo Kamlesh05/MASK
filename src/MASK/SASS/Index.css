@@ -96,7 +96,7 @@ html {
 }
 
 .navbar .navbar-brand :hover {
-  color: red;
+  color: #1aa2fc;
 }
 
 .navbar .companyName {
@@ -300,6 +300,15 @@ html {
   .aboutContent p {
     font-size: 1.5rem;
   }
+  .container {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../Images/AboutUs.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Images/AboutUs.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .aboutPadding {
+    padding-bottom: 10px;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -387,6 +396,9 @@ html {
   }
   .aboutContent p {
     font-size: 1.7rem;
+  }
+  .menuActive {
+    border-bottom: none;
   }
 }
 /*# sourceMappingURL=Index.css.map */

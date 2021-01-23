@@ -97,7 +97,7 @@ html{
         color: #1aa2fc;
         font-weight: 500;
         :hover{
-            color: red;
+            color: #1aa2fc;
         }
     }
 
@@ -206,18 +206,16 @@ html{
             width: 100%;
             padding: 10px;
         }
-        
     }
-  
     .aboutHeading{
         font-size: 3.5rem;
     }
 }
-
 .aboutContent p{
     color: white;
     font-size: 2rem;
 }
+
 
 .footer{
     font-size: 1.3rem;
@@ -268,6 +266,15 @@ html{
     .aboutContent p{
         font-size: 1.5rem;
     }
+    .container{
+        background-image:linear-gradient(rgba(0, 0, 0, 0.500),rgba(0, 0, 0, 0.500)), url(../Images/AboutUs.jpg);
+        background-position:center;
+        background-size: cover;
+    }
+
+    .aboutPadding{
+        padding-bottom: 10px;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -289,7 +296,7 @@ html{
         border-bottom: none;
     }
 
-      .btnGetStarted{
+       .btnGetStarted{
         width: 60%;
     }
 
@@ -330,5 +337,8 @@ html{
 
     .aboutContent p{
         font-size: 1.7rem;
+    }
+    .menuActive{
+        border-bottom: none;
     }
 }
