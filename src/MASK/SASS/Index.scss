@@ -188,8 +188,8 @@ html{
     }
 }
 
-.about{
-       .container{
+
+       .about{
         background-image:linear-gradient(rgba(0, 0, 0, 0.500),rgba(0, 0, 0, 0.500)), url(../Images/AboutUs.jpg);
         // background-image: linear-gradient(rgba(255, 255, 255, 0.603));
         background-position:center;
@@ -210,7 +210,7 @@ html{
     .aboutHeading{
         font-size: 3.5rem;
     }
-}
+
 .aboutContent p{
     color: white;
     font-size: 2rem;
@@ -263,10 +263,14 @@ html{
         justify-content: center;
     }
 
+    .card-body{
+        min-height: 230px;
+    }
+
     .aboutContent p{
         font-size: 1.5rem;
     }
-    .container{
+    .about{
         background-image:linear-gradient(rgba(0, 0, 0, 0.500),rgba(0, 0, 0, 0.500)), url(../Images/AboutUs.jpg);
         background-position:center;
         background-size: cover;
@@ -301,10 +305,13 @@ html{
     }
 
     .card-body{
-        min-height: 200px;
-        display: flex;
-        flex-direction: column;
-        justify-content:space-between;
+        min-height: 240px;
+        max-height: 240px;
+    }
+
+    .card-body{
+        min-height: 230px;
+    
     }
 
     .aboutContent p{

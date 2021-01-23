@@ -9,7 +9,7 @@ const About = () =>{
                 <div className="container-fluid my-3">
                     <h1 className="text-center aboutHeading">About Us</h1>
                 </div>
-                <div className="container">
+                <div className="container about">
                     <div className="row">   
                         <div className="aboutMain">
                             {/* <h1 className="">The leader in website creation</h1> */}
