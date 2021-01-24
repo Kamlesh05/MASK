@@ -146,7 +146,7 @@ html {
 }
 
 .card {
-  width: 25vw;
+  width: 23vw;
 }
 
 .card-body {
@@ -254,7 +254,7 @@ html {
 }
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 400px) and (max-width: 767px) {
+@media (min-width: 400px) and (max-width: 768px) {
   .leftSection {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -301,6 +301,12 @@ html {
         -ms-flex-pack: center;
             justify-content: center;
   }
+  .card {
+    width: 52vw;
+  }
+  .card-title {
+    font-size: 2rem;
+  }
   .card-body {
     min-height: 230px;
   }
@@ -319,7 +325,7 @@ html {
 }
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 967px) {
+@media (min-width: 768px) and (max-width: 970px) {
   .leftSection {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -363,7 +369,7 @@ html {
 }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 968px) and (max-width: 1277px) {
+@media (min-width: 971px) and (max-width: 1277px) {
   .leftSection {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -388,6 +394,9 @@ html {
     width: -moz-max-content;
     width: max-content;
   }
+  .card {
+    width: 25vw;
+  }
   .card-body {
     min-height: 240px;
     max-height: 240px;
@@ -400,6 +409,15 @@ html {
   }
   .menuActive {
     border-bottom: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .card {
+    width: 36vw;
+  }
+  .card-title {
+    font-size: 2.2rem;
   }
 }
 /*# sourceMappingURL=Index.css.map */
