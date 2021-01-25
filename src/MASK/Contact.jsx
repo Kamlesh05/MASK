@@ -28,7 +28,7 @@ const Contact = () =>{
         const formSubmit= (e)=>{
             e.preventDefault();
             alert(`I am ${data.fullname}. My contact number is ${data.mobile}.
-I can be also reached on ${data.email}. I just want to say that, ${data.message} `)
+I can be also reached on ${data.email}. I would like to say that, ${data.message} `)
             setData({
                 fullname:'',
                 mobile:'',
@@ -53,7 +53,7 @@ I can be also reached on ${data.email}. I just want to say that, ${data.message}
                         <div className="mb-3">
                             <label for="exampleFormControlInput1" className="form-label font-weight-bold">Contact :</label>
                             <input name='mobile' value={data.mobile} onChange={InputEvent} type="text" pattern="[7-9]{1}[0-9]{9}" title="Please enter valid mobile number"  className="form-control form-control-sm" id="exampleFormControlInput1" placeholder="Mobile number" required/>
-                            <span id="mobVal">hello</span>
+                            
                         </div>
                         <div className="mb-3">
                             <label for="exampleFormControlInput1" className="form-label font-weight-bold">Email address :</label>
