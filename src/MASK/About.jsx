@@ -1,6 +1,5 @@
 import React from 'react';
- import web from "../../src/MASK/Images/About.jpg";
-import Common from './Common';
+
 
 const About = () =>{
     return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import web from "../../src/MASK/Images/Rocket.svg";
+import web from "../../src/MASK/Images/Rocket.jpg";
 import Common from './Common';
 
 
