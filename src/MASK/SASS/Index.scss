@@ -67,7 +67,7 @@ html{
   }
 .heroImage{
     width: 100vw;
-    height: 100vh;
+    height: 76vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.233),rgba(0, 0, 0, 0.233)), url('../Images/home_v3.jpg');
     background-attachment: fixed;
     background-size: cover;
@@ -252,7 +252,7 @@ html{
         color: white;
     }
     .header-img{
-        max-width: 320px;
+        max-width: 250px;
     }
 
     .heroImage{
